@@ -1,0 +1,5 @@
+Import-Bundle: com.springsource.org.postgresql.jdbc4;version="[8.3.604,8.3.604]"
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *

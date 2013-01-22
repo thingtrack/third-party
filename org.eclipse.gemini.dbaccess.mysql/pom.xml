@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>third.party</artifactId>
+		<groupId>com.thingtrack</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>org.eclipse.gemini.dbaccess.mysql</artifactId>
+	<name>org.eclipse.gemini.dbaccess.mysql</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<org.osgi.core.version>4.3.0</org.osgi.core.version>
+		<org.osgi.enterprise.version>4.2.0</org.osgi.enterprise.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.virgo.bundlor</groupId>
+				<artifactId>org.eclipse.virgo.bundlor.maven</artifactId>
+				<version>1.1.1.RELEASE</version>
+				<configuration>
+					<outputPath>${basedir}/src/main/resources</outputPath>
+					<manifestTemplate>
+					<![CDATA[
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.gemini.dbaccess.mysql
+Bundle-SymbolicName: org.eclipse.gemini.dbaccess.mysql
+Bundle-Version: ${version}
+Bundle-Activator: org.eclipse.gemini.dbaccess.mysql.Activator
+Import-Bundle: com.springsource.com.mysql.jdbc;version="[5.1.6,5.1.6]"
+]]>
+					</manifestTemplate>
+				</configuration>
+				<!-- generate the manifest automatically during packaging -->
+				<executions>
+					<execution>
+						<id>bundlor</id>
+						<goals>
+							<goal>bundlor</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.3</version>
+				<configuration>
+					<archive>
+						<manifestFile>
+							src/main/resources/META-INF/MANIFEST.MF
+						</manifestFile>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<!-- MySQL Driver -->
+		<dependency>
+			<groupId>com.mysql.jdbc</groupId>
+			<artifactId>com.springsource.com.mysql.jdbc</artifactId>
+			<version>5.1.6</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- OSGI Core API -->
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.enterprise</artifactId>
+			<version>${org.osgi.enterprise.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- OSGI Enterprise API -->
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>${org.osgi.core.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

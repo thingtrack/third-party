@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.henrik.superimmediatetextfield;uses:="com.v
+ aadin.data,com.vaadin.terminal,com.vaadin.ui"
+Private-Package: org.vaadin.henrik.superimmediatetextfield.client.ui
+Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
+ ,com.google.gwt.event.dom.client,com.google.gwt.user.client.ui
+Bundle-ClassPath: .,superimmediatetextfield-1.0.0.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.superimmediatetextfield
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1358876126475
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.superimmediatete
+ xtfield
+Import-Package: com.vaadin.data,com.vaadin.terminal,com.vaadin.termina
+ l.gwt.client,com.vaadin.terminal.gwt.client.ui,com.vaadin.ui,org.vaad
+ in.henrik.superimmediatetextfield
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=supe
+ rimmediatetextfield
+

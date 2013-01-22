@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.overlay;uses:="com.vaadin.event,com.vaadin.
+ terminal,org.vaadin.overlay.client.ui,com.vaadin,com.vaadin.ui",org.v
+ aadin.overlay.public.overlays,org.vaadin.overlay.client.ui;uses:="com
+ .vaadin.terminal.gwt.client.ui,com.vaadin.terminal.gwt.client"
+Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
+ ,com.google.gwt.user.client.ui
+Bundle-ClassPath: .,overlays-0.9.8.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.overlays
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 0.9.8
+Bnd-LastModified: 1358876111125
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.vaadin,com.vaadin.event,com.vaadin.terminal,com.va
+ adin.terminal.gwt.client,com.vaadin.terminal.gwt.client.ui,com.vaadin
+ .ui,org.vaadin.overlay,org.vaadin.overlay.client.ui,org.vaadin.overla
+ y.public.overlays
+Embed-Dependency: *;scope=compile;inline=false;artifactId=overlays
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.overlays
+

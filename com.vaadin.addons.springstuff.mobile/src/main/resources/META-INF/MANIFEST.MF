@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.vaadin.addons.springstuff.mobile;version="0.0.1-SN
+ APSHOT";uses:="com.vaadin.addon.touchkit.ui,com.vaadin.service,com.va
+ adin.terminal.gwt.server,com.vaadin.ui,javax.servlet.http,org.dellroa
+ d.stuff.vaadin,org.springframework.web.context"
+Build-Jdk: 1.6.0_24
+Built-By: carlos
+Bundle-Version: 0.0.1-SNAPSHOT
+Tool: Bundlor 1.1.1.RELEASE
+Bundle-Name: com.vaadin.addons.springstuff.mobile
+Bundle-ManifestVersion: 2
+Created-By: Maven Integration for Eclipse
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.springstuff.mobi
+ le
+Import-Package: com.vaadin.addon.touchkit.ui,com.vaadin.service,com.va
+ adin.terminal.gwt.server,com.vaadin.ui,javax.servlet.http,org.dellroa
+ d.stuff.vaadin,org.springframework.web.context
+

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: com.thingtrack.com.vaadin.addons.sliderlayout;version=
+ "0.0.1-SNAPSHOT";uses:="com.vaadin,com.vaadin.data,com.vaadin.data.ut
+ il,com.vaadin.terminal,com.vaadin.ui",com.thingtrack.com.vaadin.addon
+ s.sliderlayout.gwt;version="0.0.1-SNAPSHOT",com.thingtrack.com.vaadin
+ .addons.sliderlayout.gwt.client;version="0.0.1-SNAPSHOT";uses:="com.g
+ oogle.gwt.dom.client,com.google.gwt.query.client,com.vaadin.terminal.
+ gwt.client,com.vaadin.terminal.gwt.client.ui",com.thingtrack.com.vaad
+ in.addons.sliderlayout.gwt.public.sliderlayout;version="0.0.1-SNAPSHO
+ T",com.thingtrack.com.vaadin.addons.sliderlayout.layout;version="0.0.
+ 1-SNAPSHOT";uses:="com.vaadin.annotations,com.vaadin.ui"
+Built-By: carlos
+Tool: Bundlor 1.1.1.RELEASE
+Bundle-Name: SliderLayout Vaddin Addon
+Created-By: Maven Integration for Eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 0.0.1-SNAPSHOT
+Build-Jdk: 1.6.0_24
+Bundle-ManifestVersion: 2
+Bundle-Description: SliderLayout Vaddin Addon
+Import-Package: com.google.gwt.dom.client,com.google.gwt.query.client,
+ com.google.gwt.query.client.css,com.google.gwt.query.client.plugins,c
+ om.google.gwt.query.client.plugins.effects,com.google.gwt.user.client
+ ,com.vaadin,com.vaadin.annotations,com.vaadin.data,com.vaadin.data.ut
+ il,com.vaadin.terminal,com.vaadin.terminal.gwt.client,com.vaadin.term
+ inal.gwt.client.ui,com.vaadin.ui,gwtquery.plugins.effects.easing.clie
+ nt
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.sliderlayout
+

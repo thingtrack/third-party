@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.addon.formbinder;uses:="com.vaadin.data,com
+ .vaadin.ui"
+Bundle-ClassPath: .,formbinder-2.1.2.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.formbinder
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 2.1.2
+Bnd-LastModified: 1358876105398
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.vaadin.data,com.vaadin.ui,org.vaadin.addon.formbin
+ der
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=form
+ binder
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.formbinder
+

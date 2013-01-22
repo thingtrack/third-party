@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>third.party</artifactId>
+		<groupId>com.thingtrack</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>ar.com.fdvs.dynamicjasper</artifactId>
+	<name>ar.com.fdvs.dynamicjasper</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>1.4.0</version>
+				<extensions>true</extensions>
+				<configuration>
+					<obrRepository>NONE</obrRepository>
+					<manifestLocation>META-INF</manifestLocation>
+					<instructions>
+						<Export-Package>ar.com.fdvs.*</Export-Package>
+						<Import-Package>javax.servlet.*;version="[3.0.0, 3.0.0]",*</Import-Package>
+						<Embed-Transitive>false</Embed-Transitive>
+						<!-- embed all compile and runtime scope dependencies, except those 
+							with artifactIds in the given list -->
+						<Embed-Dependency>DynamicJasper;scope=compile;inline=false</Embed-Dependency>
+					</instructions>
+				</configuration>
+				<executions>
+					<execution>
+						<id>bundle-manifest</id>
+						<phase>package</phase>
+						<goals>
+							<goal>bundle</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>ar.com.fdvs</groupId>
+			<artifactId>DynamicJasper</artifactId>
+			<version>4.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>fdvsolution.public</id>
+			<url>http://archiva.fdvs.com.ar/repository/public1/</url>
+		</repository>
+	</repositories>
+	<version>4.0.0</version>
+</project>

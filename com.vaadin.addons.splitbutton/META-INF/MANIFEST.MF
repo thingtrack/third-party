@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.hene.splitbutton;uses:="org.vaadin.hene.pop
+ upbutton,com.vaadin.terminal,com.vaadin.ui"
+Private-Package: org.vaadin.hene.splitbutton.widgetset,org.vaadin.hene
+ .splitbutton.widgetset.client.ui,org.vaadin.hene.splitbutton.widgetse
+ t.public.splitbutton
+Ignore-Package: com.google.gwt.user.client,com.google.gwt.dom.client,c
+ om.google.gwt.user.client.ui
+Bundle-ClassPath: .,splitbutton-0.9.7.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.splitbutton
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 0.9.7
+Bnd-LastModified: 1358876113251
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.splitbutton
+Import-Package: com.vaadin.terminal,com.vaadin.terminal.gwt.client,com
+ .vaadin.ui,org.vaadin.hene.popupbutton,org.vaadin.hene.splitbutton
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=spli
+ tbutton
+

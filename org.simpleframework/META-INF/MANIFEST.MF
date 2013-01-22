@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Export-Package: org.simpleframework.xml;uses:="org.simpleframework.xml
+ .stream",org.simpleframework.xml.stream;uses:="javax.xml.stream,javax
+ .xml.parsers,javax.xml.stream.events,org.w3c.dom,javax.xml.namespace,
+ org.xml.sax",org.simpleframework.xml.transform;uses:="org.simpleframe
+ work.xml.core,org.simpleframework.xml.util",org.simpleframework.xml.c
+ ore;uses:="org.simpleframework.xml,org.simpleframework.xml.stream,org
+ .simpleframework.xml.transform,org.simpleframework.xml.filter,org.sim
+ pleframework.xml.strategy",org.simpleframework.xml.util,org.simplefra
+ mework.xml.strategy;uses:="org.simpleframework.xml.stream,org.simplef
+ ramework.xml.core,org.simpleframework.xml.util",org.simpleframework.x
+ ml.filter,org.simpleframework.xml.convert;uses:="org.simpleframework.
+ xml,org.simpleframework.xml.stream,org.simpleframework.xml.util,org.s
+ impleframework.xml.strategy"
+Ignore-Package: org.xmlpull.v1
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: org.simpleframework
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 0.0.1.SNAPSHOT
+Build-Jdk: 1.6.0_24
+Bnd-LastModified: 1358876122693
+Embed-Transitive: true
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.stream
+ ,javax.xml.stream.events,org.simpleframework.xml,org.simpleframework.
+ xml.convert,org.simpleframework.xml.core,org.simpleframework.xml.filt
+ er,org.simpleframework.xml.strategy,org.simpleframework.xml.stream,or
+ g.simpleframework.xml.transform,org.simpleframework.xml.util,org.w3c.
+ dom,org.xml.sax
+Bundle-SymbolicName: com.thingtrack.org.simpleframework
+

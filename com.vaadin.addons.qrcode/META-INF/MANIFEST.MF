@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: fi.jasoft.qrcode.zxing,fi.jasoft.qrcode.client.ui;uses
+ :="com.vaadin.terminal.gwt.client",fi.jasoft.qrcode.public.qrcode,fi.
+ jasoft.qrcode.data,fi.jasoft.qrcode;uses:="fi.jasoft.qrcode.zxing,fi.
+ jasoft.qrcode.data,com.vaadin,javax.imageio,com.vaadin.data,fi.jasoft
+ .qrcode.client.ui,com.vaadin.terminal,com.vaadin.ui"
+Ignore-Package: com.google.gwt.user.client.ui
+Bundle-ClassPath: .,qrcode-1.2.0.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.qrcode
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 1.2.0
+Bnd-LastModified: 1358876112246
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa
+ din.terminal.gwt.client,com.vaadin.ui,fi.jasoft.qrcode,fi.jasoft.qrco
+ de.client.ui,fi.jasoft.qrcode.data,fi.jasoft.qrcode.public.qrcode,fi.
+ jasoft.qrcode.zxing,javax.imageio
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=qrco
+ de
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.qrcode
+Originally-Created-By: Maven Integration for Eclipse
+

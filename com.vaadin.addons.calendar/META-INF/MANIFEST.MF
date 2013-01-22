@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: com.vaadin.addon.calendar.ui.handler;uses:="com.vaadin
+ .addon.calendar.ui,com.vaadin.addon.calendar.event",com.vaadin.addon.
+ calendar.ui;uses:="com.vaadin.event.dd,com.vaadin.event,com.vaadin.ad
+ don.calendar.event,com.vaadin.data,com.vaadin.addon.calendar.ui.handl
+ er,com.vaadin.event.dd.acceptcriteria,com.vaadin.tools,com.vaadin.ter
+ minal,com.vaadin.ui",com.vaadin.addon.calendar.event
+Private-Package: com.vaadin.addon.calendar.gwt,com.vaadin.addon.calend
+ ar.gwt.client.ui,com.vaadin.addon.calendar.gwt.client.ui.schedule,com
+ .vaadin.addon.calendar.gwt.client.ui.schedule.dd,com.vaadin.addon.cal
+ endar.gwt.public.com_vaadin_addon_calendar,com.vaadin.addon.calendar.
+ gwt.public.com_vaadin_addon_calendar.img
+Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
+ ,com.google.gwt.core.client,com.google.gwt.dom.client,com.google.gwt.
+ user.client.ui.impl,com.google.gwt.event.dom.client,com.google.gwt.us
+ er.client.ui,com.google.gwt.i18n.client
+Bundle-ClassPath: .,vaadin-calendar-agpl-3.0-1.2.1.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.calendar
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 1.2.1
+Bnd-LastModified: 1358876101038
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.calendar
+Import-Package: com.vaadin.addon.calendar.event,com.vaadin.addon.calen
+ dar.ui,com.vaadin.addon.calendar.ui.handler,com.vaadin.data,com.vaadi
+ n.event,com.vaadin.event.dd,com.vaadin.event.dd.acceptcriteria,com.va
+ adin.terminal,com.vaadin.terminal.gwt.client,com.vaadin.terminal.gwt.
+ client.ui,com.vaadin.terminal.gwt.client.ui.dd,com.vaadin.tools,com.v
+ aadin.ui
+Embed-Dependency: *;scope=compile;inline=false;artifactId=vaadin-calen
+ dar-agpl-3.0
+

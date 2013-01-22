@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.imagefilter.utils;uses:="javax.imageio",org
+ .vaadin.imagefilter;uses:="org.vaadin.imagefilter.utils,com.vaadin.da
+ ta.util,com.vaadin.event,com.vaadin,javax.imageio,com.vaadin.data,org
+ .vaadin.imagefilter.filters,com.jhlabs.image,com.vaadin.terminal,com.
+ vaadin.ui",org.vaadin.imagefilter.filters;uses:="org.vaadin.imagefilt
+ er.utils,com.jhlabs.image"
+Bundle-ClassPath: .,imagefilter-0.5.3.jar
+Built-By: carlos
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.imagefilter
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_24
+Bundle-Version: 0.5.3
+Bnd-LastModified: 1358876124873
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.jhlabs.image,com.vaadin,com.vaadin.data,com.vaadin
+ .data.util,com.vaadin.event,com.vaadin.terminal,com.vaadin.ui,javax.i
+ mageio,org.vaadin.imagefilter,org.vaadin.imagefilter.filters,org.vaad
+ in.imagefilter.utils
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=imag
+ efilter
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.imagefilter
+
