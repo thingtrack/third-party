@@ -6,7 +6,7 @@
 	<parent>
 		<artifactId>third.party</artifactId>
 		<groupId>com.thingtrack</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1.SNAPSHOT</version>
 	</parent>
 	<artifactId>com.vaadin.addons.splitbutton</artifactId>
 	<name>com.vaadin.addons.splitbutton</name>

@@ -13,7 +13,7 @@ Bundle-Name: com.vaadin.addons.invientcharts
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.8.6
-Bnd-LastModified: 1358876106475
+Bnd-LastModified: 1358957882432
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.invientcharts

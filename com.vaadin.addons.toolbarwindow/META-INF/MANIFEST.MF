@@ -9,7 +9,7 @@ Bundle-Name: com.vaadin.addons.toolbarwindow
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 0.1
 Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1358876115686
+Bnd-LastModified: 1358957891790
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa

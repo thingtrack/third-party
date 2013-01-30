@@ -11,7 +11,7 @@ Bundle-Name: com.vaadin.addons.superimmediatetextfield
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.0.0
-Bnd-LastModified: 1358876126475
+Bnd-LastModified: 1358957902468
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.superimmediatete

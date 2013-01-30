@@ -17,9 +17,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: org.simpleframework
 Created-By: Apache Maven Bundle Plugin
-Bundle-Version: 0.0.1.SNAPSHOT
+Bundle-Version: 2.6.2
 Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1358876122693
+Bnd-LastModified: 1358957898667
 Embed-Transitive: true
 Bundle-ManifestVersion: 2
 Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.stream

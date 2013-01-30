@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.thingtrack</groupId>
 	<artifactId>third.party</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1.SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>third.party</name>
 
@@ -109,13 +108,13 @@
 		<module>org.krysalis.addons.barcode4j</module>
 		<module> com.google.code.addons.zxing</module>
 		<module>com.vaadin.addons.imagefilter</module>
-		<module>com.vaadin.addons.jhlabs.filters</module>
+		<module>com.jhlabs.filters</module>
 		<module>com.vaadin.addons.addthis</module>
 		<module>com.vaadin.addons.superimmediatetextfield</module>
 		<module>com.vaadin.addons.sessionguard</module>
 		<module>com.vaadin.addons.csstools</module>
 		<module>com.vaadin.addons.stylecalendar</module>
-	</modules>
+  </modules>
 
 	<properties>
 		<vaadin.version>6.8.5</vaadin.version>

@@ -6,7 +6,7 @@
 	<parent>
 		<artifactId>third.party</artifactId>
 		<groupId>com.thingtrack</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1.SNAPSHOT</version>
 	</parent>
 	<artifactId>com.vaadin.addons.sliderlayout</artifactId>
 	<name>com.vaadin.addons.sliderlayout</name>
@@ -22,43 +22,57 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.eclipse.virgo.bundlor</groupId>
-				<artifactId>org.eclipse.virgo.bundlor.maven</artifactId>
-				<version>1.1.1.RELEASE</version>
-				<configuration>
-					<outputPath>${basedir}/src/main/resources</outputPath>
-					<manifestTemplate>
-					<![CDATA[
-Bundle-ManifestVersion: 2
-Bundle-Description: SliderLayout Vaddin Addon
-Bundle-Name: SliderLayout Vaddin Addon
-Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-Version: ${project.version}
-]]>
-					</manifestTemplate>
-				</configuration>
-				<!-- generate the manifest automatically during packaging -->
-				<executions>
-					<execution>
-						<id>bundlor</id>
-						<goals>
-							<goal>bundlor</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>2.3</version>
 				<configuration>
 					<archive>
-						<manifestFile>
-							src/main/resources/META-INF/MANIFEST.MF
-						</manifestFile>
+						<manifestEntries>
+							<Vaadin-Package-Version>1</Vaadin-Package-Version>
+							<Vaadin-Widgetsets>com.thingtrack.com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidgetSet</Vaadin-Widgetsets>
+						</manifestEntries>
 					</archive>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>1.4.0</version>
+				<extensions>true</extensions>
+				<configuration>
+					<obrRepository>NONE</obrRepository>
+					<manifestLocation>src/main/resources/META-INF</manifestLocation>
+					<instructions>
+						<Export-Package>
+							!com.google.gwt.*,*
+						</Export-Package>
+						<Import-Package>
+							!com.google.gwt.dom.client,
+							!com.google.gwt.query.client,
+							!com.google.gwt.query.client.css,
+							!com.google.gwt.query.client.plugins,
+							!com.google.gwt.query.client.plugins.effects,
+							!com.google.gwt.user.client,
+							!gwtquery.plugins.effects.easing.client,*
+						</Import-Package>
+						<Embed-Transitive>false</Embed-Transitive>
+						<Vaadin-Package-Version>1</Vaadin-Package-Version>
+						<Vaadin-Widgetsets>com.thingtrack.com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidgetSet</Vaadin-Widgetsets>
+					</instructions>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>bundle-manifest</id>
+						<phase>package</phase>
+						<goals>
+							<goal>bundle</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
@@ -102,5 +116,13 @@ Bundle-Version: ${project.version}
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>com.springsource.repository.bundles.milestone</id>
+			<name>SpringSource Enterprise Bundle Repository - SpringSource Milestone Releases</name>
+			<url>http://repository.springsource.com/maven/bundles/milestone</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 </project>

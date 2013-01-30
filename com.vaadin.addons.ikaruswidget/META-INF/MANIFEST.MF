@@ -27,7 +27,7 @@ Bundle-Name: com.vaadin.addons.ikaruswidget
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.0.9
-Bnd-LastModified: 1358876105924
+Bnd-LastModified: 1358957881727
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.ikaruswidget

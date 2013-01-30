@@ -27,7 +27,7 @@ Bundle-Name: com.vaadin.addons.openlayerswrapper
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1358876108094
+Bnd-LastModified: 1358957884247
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.openlayerswrappe

@@ -12,7 +12,7 @@ Bundle-Name: com.vaadin.addons.qrcode
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1358876112246
+Bnd-LastModified: 1358957888123
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa

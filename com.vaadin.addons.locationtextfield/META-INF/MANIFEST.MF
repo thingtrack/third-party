@@ -15,7 +15,7 @@ Bundle-Name: com.vaadin.addons.locationtextfield
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.2.1
-Bnd-LastModified: 1358876107109
+Bnd-LastModified: 1358957883086
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.locationtextfiel

@@ -12,7 +12,7 @@ Bundle-Name: com.vaadin.addons.imagefilter
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.5.3
-Bnd-LastModified: 1358876124873
+Bnd-LastModified: 1358957900784
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.jhlabs.image,com.vaadin,com.vaadin.data,com.vaadin

@@ -6,8 +6,8 @@ Tool: Bnd-0.0.238
 Bundle-Name: org.json
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
-Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1358876122012
+Bundle-Version: 20090211
+Bnd-LastModified: 1358957898135
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: org.json
