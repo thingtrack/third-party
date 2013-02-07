@@ -114,6 +114,7 @@
 		<module>com.vaadin.addons.sessionguard</module>
 		<module>com.vaadin.addons.csstools</module>
 		<module>com.vaadin.addons.stylecalendar</module>
+		<module>com.vaadin.addons.event-timeline</module>
   </modules>
 
 	<properties>
