@@ -42,15 +42,9 @@ Thumbs.db
 .settings/
 build.properties
 
-#VAADIN files
-#############
-*/main/*/VAADIN/widgetsets/**/*
-
 #MANIFEST files
 ###############
-META-INF/MANIFEST.MF
-src/main/resources/META-INF/MANIFEST.MF
-src/main/webapp/META-INF/MANIFEST.MF
+MANIFEST.MF
 
 #Maven binaries
 ###############

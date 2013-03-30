@@ -953,9 +953,14 @@ public class CustomTable extends AbstractSelect implements Action.Container,
     }
 
     protected Object getIdByIndex(int index) {
-        return ((Container.Indexed) items).getIdByIndex(index);
+    	if (index == -1)
+    		return  ((Container.Indexed) items).getIdByIndex(0);
+    	else if (index > getContainerDataSource().size() - 1)
+    		return  ((Container.Indexed) items).getIdByIndex(getContainerDataSource().size() - 1);
+    	else
+    		return ((Container.Indexed) items).getIdByIndex(index);
     }
-
+    
     /**
      * Setter for property currentPageFirstItemId.
      * 
@@ -5268,6 +5273,7 @@ public class CustomTable extends AbstractSelect implements Action.Container,
     }
 
     protected void focusFilterComponent(Focusable toFocus) {
-        getWindow().setFocusedComponent(toFocus);
+    	if (getWindow() != null)
+    		getWindow().setFocusedComponent(toFocus);
     }
 }
