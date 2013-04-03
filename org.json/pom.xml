@@ -6,10 +6,11 @@
 	<parent>
 		<artifactId>third.party</artifactId>
 		<groupId>com.thingtrack</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1.SNAPSHOT</version>
 	</parent>
 	<artifactId>org.json</artifactId>
 	<name>org.json</name>
+	<version>20090211</version>
 	<url>http://maven.apache.org</url>
 
 	<properties>

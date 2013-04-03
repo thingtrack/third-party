@@ -18,6 +18,7 @@ Directory Structure
 	  |-com.vaadin.addons.csstools/
 	  |-com.vaadin.addons.customfield/
 	  |-com.vaadin.addons.dragdroplayouts/
+	  |-com.vaadin.addons.event-timeline/
 	  |-com.vaadin.addons.filteringtable
 	  |-com.vaadin.addons.formbinder/
 	  |-com.vaadin.addons.ikaruswidget/
@@ -49,7 +50,8 @@ Directory Structure
 	  |-org.json
 	  |-org.krysalis.addons.barcode4j/
 	  |-org.simpleframework/
-	  '-org.tepi.filtertable/
+	  |-org.tepi.filtertable/
+	  '-distribution/ ........... Distribution files
 
 
 	  

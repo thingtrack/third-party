@@ -1,7 +1,6 @@
 Manifest-Version: 1.0
-Export-Package: com.vaadin.terminal.gwt.server;version="0.0.1-SNAPSHOT
- ";uses:="com.vaadin,javax.servlet,javax.servlet.http",com.vaadin.term
- inal.gwt.server.internal;version="0.0.1-SNAPSHOT"
+Export-Package: com.vaadin.terminal.gwt.server;version="0.0.1.SNAPSHOT
+ ";uses:="com.vaadin,javax.servlet,javax.servlet.http"
 Bundle-ClassPath: ., serverpush-1.0.6.jar
 Built-By: carlos
 Tool: Bundlor 1.1.1.RELEASE
@@ -9,7 +8,7 @@ Bundle-Name: Vaadin OSGi Addon
 Created-By: Maven Integration for Eclipse
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Fragment-Host: com.vaadin
-Bundle-Version: 0.0.1-SNAPSHOT
+Bundle-Version: 0.0.1.SNAPSHOT
 Build-Jdk: 1.6.0_24
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.osgi

@@ -5,7 +5,7 @@
   <parent>
     <artifactId>third.party</artifactId>
     <groupId>com.thingtrack</groupId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1.SNAPSHOT</version>
   </parent>
   <artifactId>org.tepi.filtertable</artifactId>
   <name>org.tepi.filtertable</name>

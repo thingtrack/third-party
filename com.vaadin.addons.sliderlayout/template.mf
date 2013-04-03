@@ -1,5 +1,3 @@
-Excluded-Imports: 
- com.google*,gwtquery.plugins.effects.easing.client
 Excluded-Exports: 
  *.gwt*
 Unversioned-Imports: 

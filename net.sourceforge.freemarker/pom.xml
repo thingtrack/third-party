@@ -6,10 +6,11 @@
 	<parent>
 		<artifactId>third.party</artifactId>
 		<groupId>com.thingtrack</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1.SNAPSHOT</version>
 	</parent>
 	<artifactId>net.sourceforge.freemarker</artifactId>
 	<name>net.sourceforge.freemarker</name>
+	<version>2.3.4</version>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
