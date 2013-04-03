@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 Export-Package: org.json
 Bundle-ClassPath: .,json-20090211.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: org.json
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1358876122012
+Bnd-LastModified: 1361472735791
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: org.json

@@ -6,13 +6,13 @@ Export-Package: org.vaadin.imagefilter.utils;uses:="javax.imageio",org
  vaadin.ui",org.vaadin.imagefilter.filters;uses:="org.vaadin.imagefilt
  er.utils,com.jhlabs.image"
 Bundle-ClassPath: .,imagefilter-0.5.3.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.imagefilter
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 0.5.3
-Bnd-LastModified: 1358876124873
+Bnd-LastModified: 1361472738731
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.jhlabs.image,com.vaadin,com.vaadin.data,com.vaadin

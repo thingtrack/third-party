@@ -18,13 +18,13 @@ Ignore-Package: com.google.gwt.event.shared,com.google.gwt.core.ext.li
  ces.client,com.google.gwt.core.ext,com.google.gwt.event.dom.client,co
  m.google.gwt.user.client.ui,com.google.gwt.i18n.client
 Bundle-ClassPath: .,vaadin-touchkit-agpl-2.1.0.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.touchkit
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 2.1.0
-Bnd-LastModified: 1358876116268
+Bnd-LastModified: 1361472730462
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.addon.touchkit.gwt,com.vaadin.ad

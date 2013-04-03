@@ -81,13 +81,13 @@ Ignore-Package: org.krysalis.barcode4j.ant,org.krysalis.barcode4j.impl
  rysalis.barcode4j,org.krysalis.barcode4j.impl.code39,org.krysalis.bar
  code4j.xalan,org.krysalis.barcode4j.impl.upcean
 Bundle-ClassPath: .,barcode4j-2.1.0.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: org.krysalis.addons.barcode4j
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1358876123434
+Bnd-LastModified: 1361472737226
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.google.zxing,com.google.zxing.qrcode.decoder,com.g

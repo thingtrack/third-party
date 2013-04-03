@@ -3,13 +3,13 @@ Export-Package: org.vaadin.toolbarwindow;uses:="com.vaadin.data,org.va
  adin.cssinject,org.vaadin.jouni.animator,org.vaadin.jouni.animator.cl
  ient.ui,com.vaadin.terminal,com.vaadin,com.vaadin.ui",org.vaadin.tool
  barwindow.widgetset
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.toolbarwindow
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 0.1
-Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1358876115686
+Build-Jdk: 1.6.0_26
+Bnd-LastModified: 1361472729928
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa

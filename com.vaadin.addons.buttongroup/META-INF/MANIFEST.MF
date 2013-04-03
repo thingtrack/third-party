@@ -5,13 +5,13 @@ Private-Package: org.vaadin.peter.buttongroup.client.ui,org.vaadin.pet
  er.buttongroup.public.buttongroup-widget
 Ignore-Package: com.google.gwt.user.client.ui
 Bundle-ClassPath: .,buttongroup-1.2.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.buttongroup
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.2
-Bnd-LastModified: 1358876100549
+Bnd-LastModified: 1361472711794
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.buttongroup

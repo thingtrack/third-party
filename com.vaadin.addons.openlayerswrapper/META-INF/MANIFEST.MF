@@ -21,13 +21,13 @@ Ignore-Package: org.vaadin.vol.client.wrappers.filter,com.google.gwt.e
  adin.vol.client,org.vaadin.vol.client.wrappers.handler,com.google.gwt
  .event.dom.client,com.google.gwt.user.client.ui
 Bundle-ClassPath: .,openlayers-wrapper-1.2.0.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.openlayerswrapper
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1358876108094
+Bnd-LastModified: 1361472722703
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.openlayerswrappe

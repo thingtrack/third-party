@@ -49,13 +49,13 @@ Export-Package: freemarker;version="0.0.1.SNAPSHOT",freemarker.debug;u
  ="freemarker.template";version="0.0.1.SNAPSHOT"
 Ignore-Package: org.apache.log
 Bundle-ClassPath: .,freemarker-2.3.4.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: net.sourceforge.freemarker
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1358876120069
+Bnd-LastModified: 1361472733822
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: freemarker;version="0.0.1.SNAPSHOT",freemarker.cache;v

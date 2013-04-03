@@ -6,13 +6,13 @@ Export-Package: fi.jasoft.qrcode.zxing,fi.jasoft.qrcode.client.ui;uses
  .qrcode.client.ui,com.vaadin.terminal,com.vaadin.ui"
 Ignore-Package: com.google.gwt.user.client.ui
 Bundle-ClassPath: .,qrcode-1.2.0.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.qrcode
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1358876112246
+Bnd-LastModified: 1361472726690
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa

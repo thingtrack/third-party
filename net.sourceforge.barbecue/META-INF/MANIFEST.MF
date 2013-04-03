@@ -24,13 +24,13 @@ Export-Package: net.sourceforge.barbecue.formatter;uses:="net.sourcefo
  "net.sourceforge.barbecue.linear,net.sourceforge.barbecue,net.sourcef
  orge.barbecue.output"
 Ignore-Package: com.sun.image.codec.jpeg
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: net.sourceforge.barbecue
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.1.0
-Bnd-LastModified: 1358876119416
+Bnd-LastModified: 1361472732882
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: javax.servlet;version="[3.0.0,3.0.0]",javax.servlet.ht

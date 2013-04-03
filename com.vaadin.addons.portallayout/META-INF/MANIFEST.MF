@@ -20,13 +20,13 @@ Ignore-Package: com.google.gwt.event.shared,org.vaadin.sasha.portallay
  rminal.gwt.client.ui,com.vaadin.terminal.gwt.client,com.google.gwt.ev
  ent.dom.client,com.google.gwt.user.client.ui
 Bundle-ClassPath: .,portallayout-1.3.1.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.portallayout
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.3.1
-Bnd-LastModified: 1358876118810
+Bnd-LastModified: 1361472732255
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.portallayout

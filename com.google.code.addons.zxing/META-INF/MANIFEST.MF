@@ -57,13 +57,13 @@ Ignore-Package: com.google.zxing.datamatrix.detector,com.google.zxing.
  e.encoder,com.google.zxing.common.reedsolomon,com.google.zxing.oned.r
  ss.expanded.decoders,com.google.zxing.pdf417.decoder
 Bundle-ClassPath: .,zxing-1.7.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.google.code.addons.zxing
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.7
-Bnd-LastModified: 1358876124168
+Bnd-LastModified: 1361472737811
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=zxin

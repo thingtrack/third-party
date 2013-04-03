@@ -20,15 +20,15 @@ Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
  ,com.google.gwt.event.logical.shared,com.google.gwt.core.client,com.g
  oogle.gwt.dom.client,com.google.gwt.event.dom.client,com.google.gwt.u
  ser.client.ui
-Bundle-ClassPath: .,com.thingtrack.org.tepi.filtertable-0.7.3.jar
-Built-By: carlos
+Bundle-ClassPath: .,org.tepi.filtertable-0.7.3.jar
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.filteringtable
 Created-By: Apache Maven Bundle Plugin
 Fragment-Host: com.vaadin
-Build-Jdk: 1.6.0_24
-Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1358876104839
+Build-Jdk: 1.6.0_26
+Bundle-Version: 0.7.3
+Bnd-LastModified: 1364641642667
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.filteringtable

@@ -5,13 +5,13 @@ Private-Package: org.vaadin.cssinject.client.ui
 Ignore-Package: com.google.gwt.user.client,com.google.gwt.dom.client,o
  rg.vaadin.cssinject.client.ui,com.google.gwt.user.client.ui
 Bundle-ClassPath: .,cssinject-1.0.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.cssinject
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 1.0
-Bnd-LastModified: 1358876102537
+Bnd-LastModified: 1361472714186
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.cssinject

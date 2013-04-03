@@ -13,13 +13,13 @@ Export-Package: org.simpleframework.xml;uses:="org.simpleframework.xml
  xml,org.simpleframework.xml.stream,org.simpleframework.xml.util,org.s
  impleframework.xml.strategy"
 Ignore-Package: org.xmlpull.v1
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: org.simpleframework
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 0.0.1.SNAPSHOT
-Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1358876122693
+Build-Jdk: 1.6.0_26
+Bnd-LastModified: 1361472736469
 Embed-Transitive: true
 Bundle-ManifestVersion: 2
 Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.stream

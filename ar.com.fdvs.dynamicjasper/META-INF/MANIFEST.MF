@@ -91,13 +91,13 @@ Export-Package: ar.com.fdvs.dj.domain.chart.plot;uses:="net.sf.jasperr
  nstants;uses:="net.sf.jasperreports.engine.design,net.sf.jasperreport
  s.engine.type,net.sf.jasperreports.engine"
 Bundle-ClassPath: .,DynamicJasper-4.0.0.jar
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: ar.com.fdvs.dynamicjasper
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Version: 4.0.0
-Bnd-LastModified: 1358876121232
+Bnd-LastModified: 1361472735106
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: ar.com.fdvs.dj.core,ar.com.fdvs.dj.core.layout,ar.com.

@@ -3,13 +3,13 @@ Export-Package: org.vaadin.addthis.util;uses:="com.vaadin.data,com.vaa
  din.data.util,org.vaadin.addthis.client.util,com.vaadin.terminal,com.
  vaadin,com.vaadin.ui",org.vaadin.addthis;uses:="org.vaadin.addthis.cl
  ient.ui,org.vaadin.addthis.util,com.vaadin.terminal,com.vaadin.ui"
-Built-By: carlos
+Built-By: thk01
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.addthis
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 1.0.2
-Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1358876125961
+Build-Jdk: 1.6.0_26
+Bnd-LastModified: 1361472739795
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.data,com.vaadin.data.util,com.va

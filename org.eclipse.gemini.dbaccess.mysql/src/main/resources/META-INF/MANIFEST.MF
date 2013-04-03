@@ -1,7 +1,6 @@
 Manifest-Version: 1.0
 Export-Package: org.eclipse.gemini.dbaccess.mysql;version="0.0.1-SNAPS
- HOT";uses:="javax.sql,org.osgi.framework,org.osgi.service.jdbc",org.e
- clipse.gemini.dbaccess.mysql.internal;version="0.0.1-SNAPSHOT"
+ HOT";uses:="javax.sql,org.osgi.framework,org.osgi.service.jdbc"
 Built-By: carlos
 Tool: Bundlor 1.1.1.RELEASE
 Bundle-Name: org.eclipse.gemini.dbaccess.mysql
