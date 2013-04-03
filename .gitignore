@@ -42,13 +42,13 @@ Thumbs.db
 .settings/
 build.properties
 
+#VAADIN files
+#############
+*/main/*/VAADIN/widgetsets/**/*
+
 #MANIFEST files
 ###############
-<<<<<<< HEAD
-MANIFEST.MF
-=======
 */META-INF/MANIFEST.MF
->>>>>>> branch 'master' of https://github.com/thingtrack/third-party.git
 
 #Maven binaries
 ###############
