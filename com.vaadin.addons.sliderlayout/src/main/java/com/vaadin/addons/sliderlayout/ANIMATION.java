@@ -1,4 +1,4 @@
-package com.thingtrack.com.vaadin.addons.sliderlayout;
+package com.vaadin.addons.sliderlayout;
 
 /**
  * Easing animation document

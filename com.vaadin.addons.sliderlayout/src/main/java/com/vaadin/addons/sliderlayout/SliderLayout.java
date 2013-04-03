@@ -13,19 +13,19 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.thingtrack.com.vaadin.addons.sliderlayout;
+package com.vaadin.addons.sliderlayout;
 
 import java.io.Serializable;
 import java.util.Hashtable;
 import java.util.Map;
 
+import com.vaadin.addons.sliderlayout.gwt.client.VSliderLayout;
 import com.vaadin.terminal.PaintException;
 import com.vaadin.terminal.PaintTarget;
 import com.vaadin.ui.AbsoluteLayout;
 import com.vaadin.ui.ClientWidget;
 import com.vaadin.ui.Component;
 
-import com.thingtrack.com.vaadin.addons.sliderlayout.gwt.client.VSliderLayout;
 
 @SuppressWarnings("serial")
 @ClientWidget(VSliderLayout.class)

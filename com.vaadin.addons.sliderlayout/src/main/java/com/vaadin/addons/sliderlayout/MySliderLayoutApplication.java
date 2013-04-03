@@ -13,9 +13,14 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.thingtrack.com.vaadin.addons.sliderlayout;
+package com.vaadin.addons.sliderlayout;
 
 import com.vaadin.Application;
+import com.vaadin.addons.sliderlayout.SliderLayout.AnimationTerminateListener;
+import com.vaadin.addons.sliderlayout.layout.Detail;
+import com.vaadin.addons.sliderlayout.layout.Master;
+import com.vaadin.addons.sliderlayout.layout.SubDetail01;
+import com.vaadin.addons.sliderlayout.layout.SubDetail02;
 import com.vaadin.data.Property;
 import com.vaadin.data.Property.ValueChangeEvent;
 import com.vaadin.data.util.ObjectProperty;
@@ -31,11 +36,6 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Window;
 
-import com.thingtrack.com.vaadin.addons.sliderlayout.SliderLayout.AnimationTerminateListener;
-import com.thingtrack.com.vaadin.addons.sliderlayout.layout.Detail;
-import com.thingtrack.com.vaadin.addons.sliderlayout.layout.Master;
-import com.thingtrack.com.vaadin.addons.sliderlayout.layout.SubDetail01;
-import com.thingtrack.com.vaadin.addons.sliderlayout.layout.SubDetail02;
 
 /**
  * The Application's "main" class

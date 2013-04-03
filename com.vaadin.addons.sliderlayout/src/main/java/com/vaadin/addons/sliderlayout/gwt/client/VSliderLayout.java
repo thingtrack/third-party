@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.thingtrack.com.vaadin.addons.sliderlayout.gwt.client;
+package com.vaadin.addons.sliderlayout.gwt.client;
 
 import static com.google.gwt.query.client.GQuery.$;
 import static com.google.gwt.query.client.GQuery.Effects;

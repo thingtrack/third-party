@@ -20,6 +20,11 @@
 	</properties>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>${basedir}/src/main/java</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -29,7 +34,7 @@
 					<archive>
 						<manifestEntries>
 							<Vaadin-Package-Version>1</Vaadin-Package-Version>
-							<Vaadin-Widgetsets>com.thingtrack.com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidgetSet</Vaadin-Widgetsets>
+							<Vaadin-Widgetsets>com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidgetSet</Vaadin-Widgetsets>
 						</manifestEntries>
 					</archive>
 				</configuration>
@@ -57,7 +62,7 @@
 						</Import-Package>
 						<Embed-Transitive>false</Embed-Transitive>
 						<Vaadin-Package-Version>1</Vaadin-Package-Version>
-						<Vaadin-Widgetsets>com.thingtrack.com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidgetSet</Vaadin-Widgetsets>
+						<Vaadin-Widgetsets>com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidgetSet</Vaadin-Widgetsets>
 					</instructions>
 				</configuration>
 			</plugin>

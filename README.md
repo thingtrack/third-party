@@ -50,7 +50,8 @@ Directory Structure
 	  |-org.json
 	  |-org.krysalis.addons.barcode4j/
 	  |-org.simpleframework/
-	  '-org.tepi.filtertable/
+	  |-org.tepi.filtertable/
+	  '-distribution/ ........... Distribution files
 
 
 	  
