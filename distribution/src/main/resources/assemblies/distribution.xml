@@ -17,7 +17,7 @@
 				<include>${project.groupId}:org.simpleframework</include>
 				<include>${project.groupId}:*.addons.*</include>
 			</includes>
-			<outputDirectory>thirdparty</outputDirectory>
+			<outputFileNameMapping>${artifact.groupId}.${artifact.artifactId}-${artifact.version}.${artifact.extension}</outputFileNameMapping>
 		</dependencySet>
 	</dependencySets>
 </assembly>

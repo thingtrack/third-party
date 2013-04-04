@@ -85,7 +85,7 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>com.vaadin.addons.filteringtable</artifactId>
-			<version>${project.version}</version>
+			<version>0.7.3</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
