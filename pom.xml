@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.thingtrack</groupId>
 	<artifactId>third.party</artifactId>
@@ -48,6 +49,20 @@
 		<repository>
 			<id>virgo</id>
 			<url>http://build.eclipse.org/rt/virgo/maven/bundles/release</url>
+		</repository>
+
+		<!-- In project repository -->
+		<repository>
+			<id>lib</id>
+			<name>lib</name>
+			<releases>
+				<enabled>true</enabled>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>file://${project.basedir}/lib</url>
 		</repository>
 	</repositories>
 
@@ -115,9 +130,9 @@
 		<module>com.vaadin.addons.csstools</module>
 		<module>com.vaadin.addons.stylecalendar</module>
 		<module>com.vaadin.addons.event-timeline</module>
-    <module>org.vaadin.addons.tokenfield</module>
-    <module>distribution</module>
-  </modules>
+		<module>org.vaadin.addons.tokenfield</module>
+		<module>distribution</module>
+	</modules>
 
 	<properties>
 		<vaadin.version>6.8.5</vaadin.version>
