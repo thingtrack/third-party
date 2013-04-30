@@ -24,6 +24,7 @@ Directory Structure
 	  |-com.vaadin.addons.ikaruswidget/
 	  |-com.vaadin.addons.imagefilter/
 	  |-com.vaadin.addons.invientcharts/
+	  |-com.vaadin.addons.lazyquerycontainer/
 	  |-com.vaadin.addons.locationtextfield/
 	  |-com.vaadin.addons.notifique/
 	  |-com.vaadin.addons.openlayerswrapper/

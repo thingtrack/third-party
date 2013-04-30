@@ -115,7 +115,8 @@
 		<module>com.vaadin.addons.csstools</module>
 		<module>com.vaadin.addons.stylecalendar</module>
 		<module>com.vaadin.addons.event-timeline</module>
-    <module>org.vaadin.addons.tokenfield</module>
+    	<module>org.vaadin.addons.tokenfield</module>
+    	<module>com.vaadin.addons.lazyquerycontainer</module>
     <module>distribution</module>
   </modules>
 
