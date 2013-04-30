@@ -51,6 +51,7 @@ Directory Structure
 	  |-org.krysalis.addons.barcode4j/
 	  |-org.simpleframework/
 	  |-org.tepi.filtertable/
+	  |-lib/ ........... Non public dependencies
 	  '-distribution/ ........... Distribution files
 
 

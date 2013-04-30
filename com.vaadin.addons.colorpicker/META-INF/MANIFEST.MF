@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Export-Package: com.vaadin.addon.colorpicker;uses:="com.vaadin.data.va
+ lidator,com.vaadin,javax.imageio,com.vaadin.data,com.vaadin.terminal,
+ com.vaadin.addon.colorpicker.events,com.vaadin.ui",com.vaadin.addon.c
+ olorpicker.events;uses:="com.vaadin.ui"
+Private-Package: com.vaadin.addon.colorpicker.gwt,com.vaadin.addon.col
+ orpicker.gwt.client,com.vaadin.addon.colorpicker.gwt.public.colorpick
+ er,com.vaadin.addon.colorpicker.gwt.public.colorpicker.images
+Ignore-Package: com.google.gwt.event.shared,com.vaadin.addon.colorpick
+ er.gwt.public.colorpicker.images,com.google.gwt.user.client,com.vaadi
+ n.addon.colorpicker.gwt,com.vaadin.terminal.gwt.client.ui,com.vaadin.
+ addon.colorpicker.gwt.client,com.vaadin.terminal.gwt.client,com.googl
+ e.gwt.dom.client,com.vaadin.addon.colorpicker.gwt.public.colorpicker,
+ com.google.gwt.event.dom.client,com.google.gwt.user.client.ui
+Bundle-ClassPath: .,vaadin-colorpicker-1.1.0.jar
+Built-By: thk01
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.colorpicker
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_26
+Bundle-Version: 1.1.0
+Bnd-LastModified: 1367345681230
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.colorpicker
+Import-Package: com.vaadin,com.vaadin.addon.colorpicker,com.vaadin.add
+ on.colorpicker.events,com.vaadin.data,com.vaadin.data.validator,com.v
+ aadin.terminal,com.vaadin.ui,javax.imageio
+Embed-Dependency: *;scope=compile;inline=false;artifactId=vaadin-color
+ picker
+

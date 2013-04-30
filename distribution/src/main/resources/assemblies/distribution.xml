@@ -18,6 +18,7 @@
 				<include>${project.groupId}:*.addons.*</include>
 			</includes>
 			<outputFileNameMapping>${artifact.groupId}.${artifact.artifactId}-${artifact.version}.${artifact.extension}</outputFileNameMapping>
+			<outputDirectory>thirdparty</outputDirectory>
 		</dependencySet>
 	</dependencySets>
 </assembly>

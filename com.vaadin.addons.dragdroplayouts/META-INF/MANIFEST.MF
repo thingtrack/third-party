@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Private-Package: fi.jasoft.dragdroplayouts,fi.jasoft.dragdroplayouts.c
+ lient.ui,fi.jasoft.dragdroplayouts.client.ui.interfaces,fi.jasoft.dra
+ gdroplayouts.client.ui.util,fi.jasoft.dragdroplayouts.drophandlers,fi
+ .jasoft.dragdroplayouts.events,fi.jasoft.dragdroplayouts.interfaces,f
+ i.jasoft.dragdroplayouts.public.fi_jasoft_dragdroplayouts
+Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
+ ,fi.jasoft.dragdroplayouts.client.ui,com.google.gwt.core.client,com.g
+ oogle.gwt.dom.client,com.google.gwt.event.dom.client,fi.jasoft.dragdr
+ oplayouts.client.ui.util,com.google.gwt.user.client.ui
+Bundle-ClassPath: .,dragdroplayouts-0.8.1.jar
+Built-By: thk01
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.dragdroplayouts
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_26
+Bundle-Version: 0.8.1
+Bnd-LastModified: 1367345682710
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.vaadin.event,com.vaadin.event.dd,com.vaadin.event.
+ dd.acceptcriteria,com.vaadin.terminal,com.vaadin.terminal.gwt.client,
+ com.vaadin.terminal.gwt.client.ui,com.vaadin.terminal.gwt.client.ui.d
+ d,com.vaadin.terminal.gwt.client.ui.layout,com.vaadin.ui
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=drag
+ droplayouts
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.dragdroplayouts
+

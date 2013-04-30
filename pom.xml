@@ -49,6 +49,20 @@
 			<id>virgo</id>
 			<url>http://build.eclipse.org/rt/virgo/maven/bundles/release</url>
 		</repository>
+
+		<!-- In project repository -->
+		<repository>
+			<id>lib</id>
+			<name>lib</name>
+			<releases>
+				<enabled>true</enabled>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<url>file://${project.basedir}/lib</url>
+		</repository>
 	</repositories>
 
 
@@ -116,8 +130,8 @@
 		<module>com.vaadin.addons.stylecalendar</module>
 		<module>com.vaadin.addons.event-timeline</module>
     	<module>org.vaadin.addons.tokenfield</module>
-    	<module>org.vaadin.addons.organisationchart</module>
-    	<module>org.vaadin.addons.visualizationsforvaadin</module>
+    	<module>com.vaadin.addons.organisationchart</module>
+    	<module>com.vaadin.addons.visualizationsforvaadin</module>
     	<module>distribution</module>
   </modules>
 

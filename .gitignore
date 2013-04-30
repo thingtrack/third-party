@@ -15,7 +15,6 @@
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.zip
@@ -48,7 +47,11 @@ build.properties
 
 #MANIFEST files
 ###############
+<<<<<<< HEAD
 */META-INF/MANIFEST.MF
+=======
+**/META-INF/*
+>>>>>>> 65e770a039235750a672bae6b5c2535a14a24220
 
 #Maven binaries
 ###############

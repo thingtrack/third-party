@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.hene.popupbutton;uses:="com.vaadin.terminal
+ ,com.vaadin.tools,com.vaadin,com.vaadin.ui"
+Private-Package: org.vaadin.hene.popupbutton.widgetset,org.vaadin.hene
+ .popupbutton.widgetset.client.ui,org.vaadin.hene.popupbutton.widgetse
+ t.public.popupbutton
+Ignore-Package: com.google.gwt.user.client,com.google.gwt.core.client,
+ com.google.gwt.dom.client,com.google.gwt.user.client.ui
+Bundle-ClassPath: .,popupbutton-1.1.0.jar
+Built-By: thk01
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.popupbutton
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_26
+Bundle-Version: 1.1.0
+Bnd-LastModified: 1367345688988
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.popupbutton
+Import-Package: com.vaadin,com.vaadin.terminal,com.vaadin.terminal.gwt
+ .client,com.vaadin.terminal.gwt.client.ui,com.vaadin.terminal.gwt.cli
+ ent.ui.richtextarea,com.vaadin.tools,com.vaadin.ui,org.vaadin.hene.po
+ pupbutton
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=popu
+ pbutton
+

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.csstools;uses:="org.vaadin.csstools.client,
+ com.vaadin.terminal,com.vaadin,com.vaadin.ui",org.vaadin.csstools.cli
+ ent;uses:="com.vaadin.terminal.gwt.client.ui,com.vaadin.terminal.gwt.
+ client"
+Ignore-Package: com.google.gwt.user.client,com.google.gwt.core.client,
+ com.google.gwt.dom.client,com.google.gwt.user.client.ui
+Bundle-ClassPath: .,css-tools-0.3.jar
+Built-By: thk01
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.csstools
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_26
+Bundle-Version: 0.3
+Bnd-LastModified: 1367345701276
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.vaadin,com.vaadin.terminal,com.vaadin.terminal.gwt
+ .client,com.vaadin.terminal.gwt.client.ui,com.vaadin.ui,org.vaadin.cs
+ stools,org.vaadin.csstools.client
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=css-
+ tools
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.csstools
+

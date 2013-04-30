@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.vaadin.notifique.widgetset.public.notifique,org.va
+ adin.notifique.sample;uses:="com.vaadin.terminal,com.vaadin,com.vaadi
+ n.ui,org.vaadin.notifique",org.vaadin.notifique.widgetset,org.vaadin.
+ notifique;uses:="org.vaadin.jouni.animator,com.vaadin.event,com.vaadi
+ n.terminal,com.vaadin.ui"
+Bundle-ClassPath: .,notifique-1.0.5.jar
+Built-By: thk01
+Tool: Bnd-0.0.238
+Bundle-Name: com.vaadin.addons.notifique
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_26
+Bundle-Version: 1.0.5
+Bnd-LastModified: 1367345686381
+Embed-Transitive: false
+Bundle-ManifestVersion: 2
+Import-Package: com.vaadin,com.vaadin.event,com.vaadin.terminal,com.va
+ adin.ui,org.vaadin.jouni.animator,org.vaadin.notifique,org.vaadin.not
+ ifique.sample,org.vaadin.notifique.widgetset,org.vaadin.notifique.wid
+ getset.public.notifique
+Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=noti
+ fique
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.notifique
+

@@ -56,7 +56,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.vaadin.addons.ikarus</groupId>
+			<groupId>com.vaadin.addons</groupId>
 			<artifactId>ikarusWidget</artifactId>
 			<version>1.0.9</version>
 		</dependency>
