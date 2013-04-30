@@ -115,8 +115,10 @@
 		<module>com.vaadin.addons.csstools</module>
 		<module>com.vaadin.addons.stylecalendar</module>
 		<module>com.vaadin.addons.event-timeline</module>
-    <module>org.vaadin.addons.tokenfield</module>
-    <module>distribution</module>
+    	<module>org.vaadin.addons.tokenfield</module>
+    	<module>org.vaadin.addons.organisationchart</module>
+    	<module>org.vaadin.addons.visualizationsforvaadin</module>
+    	<module>distribution</module>
   </modules>
 
 	<properties>
