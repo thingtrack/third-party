@@ -10,7 +10,8 @@ Export-Package: org.tepi.filtertable.gwt.client.ui;uses:="com.vaadin.t
  til.filter,com.vaadin.terminal,org.tepi.filtertable.numberfilter,com.
  vaadin,com.vaadin.ui",org.tepi.filtertable.numberfilter;uses:="org.va
  adin.hene.popupbutton,com.vaadin.data,org.tepi.filtertable,com.vaadin
- .event,com.vaadin.ui",com.vaadin.ui;uses:="com.vaadin.event.dd,com.va
+ .event,com.vaadin.ui",org.tepi.filtertable.gwt,org.tepi.filtertable.g
+ wt.public.filtertable,com.vaadin.ui;uses:="com.vaadin.event.dd,com.va
  adin.data.util,com.vaadin.event,com.vaadin.terminal.gwt.client.ui.dd,
  com.vaadin.data,com.vaadin.terminal.gwt.client,com.vaadin.event.dd.ac
  ceptcriteria,com.vaadin.terminal"
@@ -27,7 +28,7 @@ Created-By: Apache Maven Bundle Plugin
 Fragment-Host: com.vaadin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1358957880456
+Bnd-LastModified: 1367335100277
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.filteringtable
@@ -38,6 +39,7 @@ Import-Package: com.vaadin,com.vaadin.data,com.vaadin.data.util,com.va
  .event.dd.acceptcriteria,com.vaadin.terminal,com.vaadin.terminal.gwt.
  client,com.vaadin.terminal.gwt.client.ui.dd,com.vaadin.ui,org.tepi.fi
  ltertable,org.tepi.filtertable.datefilter,org.tepi.filtertable.demo,o
- rg.tepi.filtertable.gwt.client.ui,org.tepi.filtertable.numberfilter,o
+ rg.tepi.filtertable.gwt,org.tepi.filtertable.gwt.client.ui,org.tepi.f
+ iltertable.gwt.public.filtertable,org.tepi.filtertable.numberfilter,o
  rg.vaadin.hene.popupbutton
 

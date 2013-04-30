@@ -63,7 +63,7 @@ Bundle-Name: com.google.code.addons.zxing
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.7
-Bnd-LastModified: 1358957900101
+Bnd-LastModified: 1366791466346
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=zxin

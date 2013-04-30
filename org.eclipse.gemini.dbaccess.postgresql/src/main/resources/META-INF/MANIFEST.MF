@@ -1,6 +1,8 @@
 Manifest-Version: 1.0
 Export-Package: org.eclipse.gemini.dbaccess.postgresql;version="0.0.1.
- SNAPSHOT";uses:="javax.sql,org.osgi.framework,org.osgi.service.jdbc"
+ SNAPSHOT";uses:="javax.sql,org.osgi.framework,org.osgi.service.jdbc",
+ org.eclipse.gemini.dbaccess.postgresql.internal;version="0.0.1.SNAPSH
+ OT"
 Built-By: carlos
 Tool: Bundlor 1.1.1.RELEASE
 Bundle-Name: org.eclipse.gemini.dbaccess.mysql

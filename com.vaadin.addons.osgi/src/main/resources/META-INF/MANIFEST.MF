@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Export-Package: com.vaadin.terminal.gwt.server;version="0.0.1.SNAPSHOT
- ";uses:="com.vaadin,javax.servlet,javax.servlet.http"
+ ";uses:="com.vaadin,javax.servlet,javax.servlet.http",com.vaadin.term
+ inal.gwt.server.internal;version="0.0.1.SNAPSHOT"
 Bundle-ClassPath: ., serverpush-1.0.6.jar
 Built-By: carlos
 Tool: Bundlor 1.1.1.RELEASE

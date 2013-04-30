@@ -9,7 +9,7 @@ Bundle-Name: com.jhlabs.filters
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 2.0.235
-Bnd-LastModified: 1358958752708
+Bnd-LastModified: 1366791467688
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.jhlabs.composite,com.jhlabs.image,com.jhlabs.math,

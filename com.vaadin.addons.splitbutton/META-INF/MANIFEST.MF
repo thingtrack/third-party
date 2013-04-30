@@ -13,7 +13,7 @@ Bundle-Name: com.vaadin.addons.splitbutton
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.9.7
-Bnd-LastModified: 1358957889118
+Bnd-LastModified: 1366791455337
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.splitbutton

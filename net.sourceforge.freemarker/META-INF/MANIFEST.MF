@@ -53,7 +53,7 @@ Bundle-Name: net.sourceforge.freemarker
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 2.3.4
-Bnd-LastModified: 1358958663070
+Bnd-LastModified: 1366791461800
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: freemarker;version="2.3.4",freemarker.cache;version="2

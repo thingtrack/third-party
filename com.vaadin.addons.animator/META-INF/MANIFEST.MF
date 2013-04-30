@@ -15,7 +15,7 @@ Bundle-Name: com.vaadin.addons.animator
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.6.4
-Bnd-LastModified: 1358957875291
+Bnd-LastModified: 1367335094879
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.animator
