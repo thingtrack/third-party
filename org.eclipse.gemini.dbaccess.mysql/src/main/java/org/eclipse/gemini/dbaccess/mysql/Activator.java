@@ -43,7 +43,7 @@ public class Activator implements BundleActivator {
 		props.put(DataSourceFactory.OSGI_JDBC_DRIVER_NAME,
 				DataSourceFactoryConstants.MYSQL_DRIVER_NAME);
 
-		/* === Register the JDBC 4 drivers === */
+		/* === Register the JDBC 5 drivers === */
 		props.put(DataSourceFactory.OSGI_JDBC_DRIVER_VERSION,
 				DataSourceFactoryConstants.JDBC_DRIVER_VERSION);
 

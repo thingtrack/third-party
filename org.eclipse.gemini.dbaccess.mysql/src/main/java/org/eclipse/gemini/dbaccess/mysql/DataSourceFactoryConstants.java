@@ -27,5 +27,5 @@ public class DataSourceFactoryConstants {
 	public static final String MYSQL_DRIVER_NAME = "MYSQL";
 
 	// Register under the JDBC version the driver supports
-	public static final String JDBC_DRIVER_VERSION = "4.0";
+	public static final String JDBC_DRIVER_VERSION = "5.1.6";
 }
