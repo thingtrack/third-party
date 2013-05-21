@@ -28,7 +28,7 @@ Created-By: Apache Maven Bundle Plugin
 Fragment-Host: com.vaadin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1367335100277
+Bnd-LastModified: 1367346582112
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.filteringtable

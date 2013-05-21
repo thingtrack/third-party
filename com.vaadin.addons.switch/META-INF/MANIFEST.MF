@@ -15,7 +15,7 @@ Bundle-Name: com.vaadin.addons.switch
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.94
-Bnd-LastModified: 1366791457176
+Bnd-LastModified: 1367346594691
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.switch

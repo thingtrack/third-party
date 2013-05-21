@@ -9,7 +9,7 @@ Bundle-Name: com.vaadin.addons.addthis
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 1.0.2
 Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1366791468407
+Bnd-LastModified: 1367346606860
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.data,com.vaadin.data.util,com.va

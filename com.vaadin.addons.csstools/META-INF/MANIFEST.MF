@@ -12,7 +12,7 @@ Bundle-Name: com.vaadin.addons.csstools
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.3
-Bnd-LastModified: 1366791469824
+Bnd-LastModified: 1367346608637
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.terminal,com.vaadin.terminal.gwt

@@ -97,7 +97,7 @@ Bundle-Name: ar.com.fdvs.dynamicjasper
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 4.0.0
-Bnd-LastModified: 1366791462978
+Bnd-LastModified: 1367346601376
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: ar.com.fdvs.dj.core,ar.com.fdvs.dj.core.layout,ar.com.

@@ -11,7 +11,7 @@ Bundle-Name: com.vaadin.addons.notifique
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 1.0.5
-Bnd-LastModified: 1366791449637
+Bnd-LastModified: 1367346585576
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.event,com.vaadin.terminal,com.va

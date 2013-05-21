@@ -19,7 +19,7 @@ Bundle-Name: org.simpleframework
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 2.6.2
 Build-Jdk: 1.6.0_24
-Bnd-LastModified: 1366791464457
+Bnd-LastModified: 1367346602778
 Embed-Transitive: true
 Bundle-ManifestVersion: 2
 Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.stream

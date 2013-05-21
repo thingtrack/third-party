@@ -13,7 +13,7 @@ Bundle-Name: com.vaadin.addons.sessionguard
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.0.5
-Bnd-LastModified: 1366791469314
+Bnd-LastModified: 1367346608033
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.sessionguard

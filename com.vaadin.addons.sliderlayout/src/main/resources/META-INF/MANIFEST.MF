@@ -20,7 +20,7 @@ Created-By: Apache Maven Bundle Plugin
 Vaadin-Package-Version: 1
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1366791454768
+Bnd-LastModified: 1367346591807
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.addons.sliderlayout,com.vaadin.a

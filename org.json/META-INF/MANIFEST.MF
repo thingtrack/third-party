@@ -7,7 +7,7 @@ Bundle-Name: org.json
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 20090211
-Bnd-LastModified: 1366791463746
+Bnd-LastModified: 1367346602156
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: org.json

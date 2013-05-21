@@ -8,7 +8,7 @@ Bundle-Name: com.vaadin.addons.formbinder
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 2.1.2
-Bnd-LastModified: 1367335100944
+Bnd-LastModified: 1367346583036
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin.data,com.vaadin.ui,org.vaadin.addon.formbin

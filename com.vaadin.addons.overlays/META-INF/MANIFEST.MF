@@ -12,7 +12,7 @@ Bundle-Name: com.vaadin.addons.overlays
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_24
 Bundle-Version: 0.9.8
-Bnd-LastModified: 1366791452637
+Bnd-LastModified: 1367346589271
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.event,com.vaadin.terminal,com.va
