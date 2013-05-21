@@ -7,9 +7,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: com.jhlabs.filters
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 2.0.235
-Bnd-LastModified: 1367346606087
+Bnd-LastModified: 1369156410415
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.jhlabs.composite,com.jhlabs.image,com.jhlabs.math,

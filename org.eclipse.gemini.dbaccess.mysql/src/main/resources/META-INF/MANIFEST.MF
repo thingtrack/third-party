@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 Export-Package: org.eclipse.gemini.dbaccess.mysql;version="0.0.1.SNAPS
  HOT";uses:="javax.sql,org.osgi.framework,org.osgi.service.jdbc"
-Built-By: carlos
+Built-By: thk01
 Tool: Bundlor 1.1.1.RELEASE
 Bundle-Name: org.eclipse.gemini.dbaccess.mysql
 Created-By: Maven Integration for Eclipse
 Import-Bundle: com.springsource.com.mysql.jdbc;version="[5.1.6,5.1.6]"
 Bundle-Version: 0.0.1.SNAPSHOT
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_26
 Bundle-Activator: org.eclipse.gemini.dbaccess.mysql.Activator
 Bundle-ManifestVersion: 2
 Import-Package: com.mysql.jdbc,com.mysql.jdbc.jdbc2.optional,javax.sql

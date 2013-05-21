@@ -25,9 +25,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.openlayerswrapper
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 1.2.0
-Bnd-LastModified: 1367346586262
+Bnd-LastModified: 1369156388442
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.openlayerswrappe

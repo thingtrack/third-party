@@ -61,9 +61,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: com.google.code.addons.zxing
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 1.7
-Bnd-LastModified: 1367346604495
+Bnd-LastModified: 1369156408673
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=zxin

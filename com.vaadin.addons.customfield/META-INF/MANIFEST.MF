@@ -6,9 +6,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.customfield
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 1.0.0
-Bnd-LastModified: 1367346579714
+Bnd-LastModified: 1369156381753
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin.data,com.vaadin.terminal,com.vaadin.ui,org.

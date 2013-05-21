@@ -22,9 +22,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.touchkit
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 2.1.0
-Bnd-LastModified: 1367346595845
+Bnd-LastModified: 1369156399203
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.addon.touchkit.gwt,com.vaadin.ad

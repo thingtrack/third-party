@@ -18,9 +18,9 @@ Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.sliderlayout
 Created-By: Apache Maven Bundle Plugin
 Vaadin-Package-Version: 1
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1367346591807
+Bnd-LastModified: 1369156394344
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: com.vaadin,com.vaadin.addons.sliderlayout,com.vaadin.a

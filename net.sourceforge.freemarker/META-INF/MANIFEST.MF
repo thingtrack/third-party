@@ -51,9 +51,9 @@ Built-By: carlos
 Tool: Bnd-0.0.238
 Bundle-Name: net.sourceforge.freemarker
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_24
+Build-Jdk: 1.6.0_27
 Bundle-Version: 2.3.4
-Bnd-LastModified: 1367346600040
+Bnd-LastModified: 1369156403781
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
 Import-Package: freemarker;version="2.3.4",freemarker.cache;version="2
