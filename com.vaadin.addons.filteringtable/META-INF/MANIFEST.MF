@@ -1,45 +1,16 @@
 Manifest-Version: 1.0
-Export-Package: org.tepi.filtertable.gwt.client.ui;uses:="com.vaadin.t
- erminal.gwt.client",org.tepi.filtertable.datefilter;uses:="org.vaadin
- .hene.popupbutton,com.vaadin.data,org.tepi.filtertable,com.vaadin,com
- .vaadin.ui",org.tepi.filtertable;uses:="com.vaadin.event,com.vaadin.d
- ata.util.filter,org.tepi.filtertable.numberfilter,org.tepi.filtertabl
- e.gwt.client.ui,com.vaadin.data,org.tepi.filtertable.datefilter,com.v
- aadin.terminal,com.vaadin.ui",org.tepi.filtertable.demo;uses:="com.va
- adin.data,com.vaadin.data.util,org.tepi.filtertable,com.vaadin.data.u
- til.filter,com.vaadin.terminal,org.tepi.filtertable.numberfilter,com.
- vaadin,com.vaadin.ui",org.tepi.filtertable.numberfilter;uses:="org.va
- adin.hene.popupbutton,com.vaadin.data,org.tepi.filtertable,com.vaadin
- .event,com.vaadin.ui",org.tepi.filtertable.gwt,org.tepi.filtertable.g
- wt.public.filtertable,com.vaadin.ui;uses:="com.vaadin.event.dd,com.va
- adin.data.util,com.vaadin.event,com.vaadin.terminal.gwt.client.ui.dd,
- com.vaadin.data,com.vaadin.terminal.gwt.client,com.vaadin.event.dd.ac
- ceptcriteria,com.vaadin.terminal"
-Private-Package: com.vaadin.terminal.gwt.client.ui
-Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
- ,com.google.gwt.event.logical.shared,com.google.gwt.core.client,com.g
- oogle.gwt.dom.client,com.google.gwt.event.dom.client,com.google.gwt.u
- ser.client.ui
-Bundle-ClassPath: .,com.thingtrack.org.tepi.filtertable-0.7.3.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.filteringtable
-Created-By: Apache Maven Bundle Plugin
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
 Fragment-Host: com.vaadin
-Build-Jdk: 1.6.0_27
+Build-Jdk: 1.6.0_45
 Bundle-Version: 0.7.3
-Bnd-LastModified: 1369156384262
+Bnd-LastModified: 1401190319984
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.filteringtable
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=org.
  tepi.filtertable
-Import-Package: com.vaadin,com.vaadin.data,com.vaadin.data.util,com.va
- adin.data.util.filter,com.vaadin.event,com.vaadin.event.dd,com.vaadin
- .event.dd.acceptcriteria,com.vaadin.terminal,com.vaadin.terminal.gwt.
- client,com.vaadin.terminal.gwt.client.ui.dd,com.vaadin.ui,org.tepi.fi
- ltertable,org.tepi.filtertable.datefilter,org.tepi.filtertable.demo,o
- rg.tepi.filtertable.gwt,org.tepi.filtertable.gwt.client.ui,org.tepi.f
- iltertable.gwt.public.filtertable,org.tepi.filtertable.numberfilter,o
- rg.vaadin.hene.popupbutton
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.filteringtable
+Originally-Created-By: Maven Integration for Eclipse
 

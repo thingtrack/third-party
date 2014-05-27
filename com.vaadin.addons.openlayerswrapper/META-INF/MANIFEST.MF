@@ -1,44 +1,16 @@
 Manifest-Version: 1.0
-Export-Package: org.vaadin.vol.public,org.vaadin.vol.demo,org.vaadin.v
- ol.demo.public,org.vaadin.vol.demo.public.img,org.vaadin.vol.demo.pub
- lic.theme.default,org.vaadin.vol.filter;uses:="org.vaadin.vol",org.va
- adin.vol;uses:="com.vaadin.event,javax.xml.parsers,com.vaadin,org.w3c
- .dom,org.xml.sax,com.vaadin.terminal.gwt.client,com.vaadin.tools,com.
- vaadin.terminal,com.vaadin.ui",org.vaadin.vol.demo.public.theme.defau
- lt.img
-Private-Package: org.vaadin.vol.client,org.vaadin.vol.client.ui,org.va
- adin.vol.client.wrappers,org.vaadin.vol.client.wrappers.control,org.v
- aadin.vol.client.wrappers.filter,org.vaadin.vol.client.wrappers.forma
- t,org.vaadin.vol.client.wrappers.geometry,org.vaadin.vol.client.wrapp
- ers.handler,org.vaadin.vol.client.wrappers.layer,org.vaadin.vol.clien
- t.wrappers.popup
-Ignore-Package: org.vaadin.vol.client.wrappers.filter,com.google.gwt.e
- vent.shared,org.vaadin.vol.client.wrappers.format,org.vaadin.vol.clie
- nt.ui,com.google.gwt.dom.client,org.vaadin.vol.client.wrappers,com.go
- ogle.gwt.user.client,com.google.gwt.core.client,org.vaadin.vol.client
- .wrappers.control,org.vaadin.vol.client.wrappers.geometry,org.vaadin.
- vol.client.wrappers.layer,org.vaadin.vol.client.wrappers.popup,org.va
- adin.vol.client,org.vaadin.vol.client.wrappers.handler,com.google.gwt
- .event.dom.client,com.google.gwt.user.client.ui
-Bundle-ClassPath: .,openlayers-wrapper-1.2.0.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.openlayerswrapper
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
-Bundle-Version: 1.2.0
-Bnd-LastModified: 1369156388442
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1401190310328
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.openlayerswrappe
- r
-Import-Package: com.vaadin,com.vaadin.event,com.vaadin.terminal,com.va
- adin.terminal.gwt.client,com.vaadin.terminal.gwt.client.ui,com.vaadin
- .tools,com.vaadin.ui,javax.xml.parsers,org.vaadin.vol,org.vaadin.vol.
- demo,org.vaadin.vol.demo.public,org.vaadin.vol.demo.public.img,org.va
- adin.vol.demo.public.theme.default,org.vaadin.vol.demo.public.theme.d
- efault.img,org.vaadin.vol.filter,org.vaadin.vol.public,org.w3c.dom,or
- g.xml.sax
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=open
  layers-wrapper
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.openlayerswrappe
+ r
+Originally-Created-By: Maven Integration for Eclipse
 

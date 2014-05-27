@@ -1,18 +1,14 @@
 Manifest-Version: 1.0
-Export-Package: org.vaadin.addon.customfield;uses:="com.vaadin.data,co
- m.vaadin.terminal,com.vaadin.ui"
-Bundle-ClassPath: .,customfield-1.0.0.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.customfield
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
 Bundle-Version: 1.0.0
-Bnd-LastModified: 1369156381753
+Bnd-LastModified: 1401190309737
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Import-Package: com.vaadin.data,com.vaadin.terminal,com.vaadin.ui,org.
- vaadin.addon.customfield
 Embed-Dependency: *;scope=compile;inline=false;artifactId=customfield
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.customfield
+Originally-Created-By: Maven Integration for Eclipse
 

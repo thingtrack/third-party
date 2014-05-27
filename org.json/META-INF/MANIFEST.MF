@@ -1,16 +1,13 @@
 Manifest-Version: 1.0
-Export-Package: org.json
-Bundle-ClassPath: .,json-20090211.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: org.json
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
 Bundle-Version: 20090211
-Bnd-LastModified: 1369156406040
+Bnd-LastModified: 1401190319732
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Import-Package: org.json
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=json
 Bundle-SymbolicName: com.thingtrack.org.json
 Originally-Created-By: Maven Integration for Eclipse

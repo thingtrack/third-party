@@ -10,7 +10,7 @@
 	</parent>
 	<artifactId>com.vaadin.addons.openlayerswrapper</artifactId>
 	<name>com.vaadin.addons.openlayerswrapper</name>
-	<version>1.2.0</version>
+	<version>1.3.1</version>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.vaadin.vol</groupId>
 			<artifactId>openlayers-wrapper</artifactId>
-			<version>1.2.0</version>
+			<version>1.3.1</version>
 		</dependency>
 	</dependencies>
 </project>

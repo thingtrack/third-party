@@ -1,36 +1,14 @@
 Manifest-Version: 1.0
-Export-Package: org.vaadin.sasha.portallayout;uses:="com.vaadin.event,
- com.vaadin.terminal,org.vaadin.sasha.portallayout.event,com.vaadin.ui
- ",org.vaadin.sasha.portallayout.event;uses:="org.vaadin.sasha.portall
- ayout,com.vaadin.ui"
-Private-Package: org,org.vaadin,org.vaadin.sasha,org.vaadin.sasha.port
- allayout.client,org.vaadin.sasha.portallayout.client.dnd,org.vaadin.s
- asha.portallayout.client.dnd.drop,org.vaadin.sasha.portallayout.clien
- t.dnd.util,org.vaadin.sasha.portallayout.client.dnd.util.impl,org.vaa
- din.sasha.portallayout.client.ui,org.vaadin.sasha.portallayout.public
- .PortalLayout
-Ignore-Package: com.google.gwt.event.shared,org.vaadin.sasha.portallay
- out.client.dnd.util.impl,com.google.gwt.dom.client,org.vaadin.sasha.p
- ortallayout.client,com.google.gwt.animation.client,com.google.gwt.res
- ources.client,org.vaadin.sasha.portallayout.public.PortalLayout,org.v
- aadin.sasha.portallayout.client.ui,org.vaadin.sasha.portallayout.clie
- nt.dnd,org.vaadin.sasha.portallayout.client.dnd.drop,org.vaadin.sasha
- .portallayout.client.dnd.util,com.google.gwt.user.client,com.vaadin.t
- erminal.gwt.client.ui.layout,com.google.gwt.core.client,com.vaadin.te
- rminal.gwt.client.ui,com.vaadin.terminal.gwt.client,com.google.gwt.ev
- ent.dom.client,com.google.gwt.user.client.ui
-Bundle-ClassPath: .,portallayout-1.3.1.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.portallayout
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
 Bundle-Version: 1.3.1
-Bnd-LastModified: 1369156402071
+Bnd-LastModified: 1399627819771
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.portallayout
-Import-Package: com.vaadin.event,com.vaadin.terminal,com.vaadin.ui,org
- .vaadin.sasha.portallayout,org.vaadin.sasha.portallayout.event
 Embed-Dependency: *;scope=compile;inline=false;artifactId=portallayout
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.portallayout
+Originally-Created-By: Maven Integration for Eclipse
 

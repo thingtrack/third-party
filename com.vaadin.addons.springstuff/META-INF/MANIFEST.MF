@@ -1,40 +1,16 @@
 Manifest-Version: 1.0
-Export-Package: org.dellroad.stuff.vaadin;uses:="org.springframework.b
- eans.factory.aspectj,org.springframework.beans.factory.annotation,org
- .aspectj.lang,org.springframework.beans.factory.config,com.vaadin,com
- .vaadin.terminal.gwt.server,javax.servlet,com.vaadin.data,org.springf
- ramework.beans.factory,org.springframework.util,org.springframework.c
- ontext,org.springframework.web.context,org.slf4j,org.springframework.
- context.event,org.aspectj.lang.annotation,org.springframework.beans.f
- actory.wiring,org.aspectj.internal.lang.annotation,com.vaadin.termina
- l,org.springframework.web.context.support,javax.servlet.http,com.vaad
- in.ui"
-Bundle-ClassPath: .,dellroad-stuff-vaadin-1.0.284.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.springstuff
-Created-By: Apache Maven Bundle Plugin
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
 Fragment-Host: com.vaadin;bundle-version="[6.7, 7.0)"
-Build-Jdk: 1.6.0_27
+Build-Jdk: 1.6.0_45
 Bundle-Version: 1.0.284
-Bnd-LastModified: 1369156395932
+Bnd-LastModified: 1399627822532
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa
- din.terminal.gwt.server,com.vaadin.ui,javax.servlet;version="3.0",jav
- ax.servlet.http;version="3.0",org.aspectj.internal.lang.annotation,or
- g.aspectj.lang,org.aspectj.lang.annotation,org.dellroad.stuff.vaadin,
- org.slf4j;version="[1.6,							1.7)",org.springframework.beans.factor
- y;version="3.0.5.RELEASE",org.springframework.beans.factory.annotatio
- n;version="3.0.5.RELEASE",org.springframework.beans.factory.aspectj;v
- ersion="3.0.5.RELEASE",org.springframework.beans.factory.config;versi
- on="3.0.5.RELEASE",org.springframework.beans.factory.wiring;version="
- 3.0.5.RELEASE",org.springframework.context;version="3.0.5.RELEASE",or
- g.springframework.context.event;version="3.0.5.RELEASE",org.springfra
- mework.util;version="3.0.5.RELEASE",org.springframework.web.context;v
- ersion="3.0.5.RELEASE",org.springframework.web.context.support;versio
- n="3.0.5.RELEASE"
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=dell
  road-stuff-vaadin
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.springstuff
+Originally-Created-By: Maven Integration for Eclipse
 

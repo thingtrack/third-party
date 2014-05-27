@@ -1,34 +1,37 @@
 Manifest-Version: 1.0
-Export-Package: com.vaadin.addons.sliderlayout.gwt,com.vaadin.addons.s
- liderlayout.gwt.public.sliderlayout,com.vaadin.addons.sliderlayout.gw
- t.client;uses:="com.vaadin.terminal.gwt.client.ui,com.vaadin.terminal
- .gwt.client",com.vaadin.addons.sliderlayout.layout;uses:="com.vaadin.
- data,com.vaadin.ui",com.vaadin.addons.sliderlayout;uses:="com.vaadin.
- data,com.vaadin.data.util,com.vaadin.addons.sliderlayout.gwt.client,c
- om.vaadin.terminal,com.vaadin,com.vaadin.addons.sliderlayout.layout,c
- om.vaadin.ui"
+Export-Package: com.vaadin.addons.sliderlayout.gwt;version="0.0.1.SNAP
+ SHOT",com.vaadin.addons.sliderlayout.gwt.public.sliderlayout;version=
+ "0.0.1.SNAPSHOT",com.vaadin.addons.sliderlayout.gwt.client;uses:="com
+ .vaadin.terminal.gwt.client.ui,com.vaadin.terminal.gwt.client";versio
+ n="0.0.1.SNAPSHOT",com.vaadin.addons.sliderlayout.layout;uses:="com.v
+ aadin.data,com.vaadin.ui";version="0.0.1.SNAPSHOT",com.vaadin.addons.
+ sliderlayout;uses:="com.vaadin.data,com.vaadin.data.util,com.vaadin.a
+ ddons.sliderlayout.gwt.client,com.vaadin.terminal,com.vaadin,com.vaad
+ in.addons.sliderlayout.layout,com.vaadin.ui";version="0.0.1.SNAPSHOT"
 Ignore-Package: com.google.gwt.user.client,com.google.gwt.query.client
  ,com.google.gwt.dom.client,com.google.gwt.query.client.plugins,gwtque
  ry.plugins.effects.easing.client,com.google.gwt.query.client.css,com.
  google.gwt.query.client.plugins.effects
-Built-By: carlos
 Vaadin-Widgetsets: com.vaadin.addons.sliderlayout.gwt.SliderLayoutWidg
  etSet
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.sliderlayout
-Created-By: Apache Maven Bundle Plugin
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
 Vaadin-Package-Version: 1
-Build-Jdk: 1.6.0_27
+Build-Jdk: 1.6.0_45
 Bundle-Version: 0.0.1.SNAPSHOT
-Bnd-LastModified: 1369156394344
+Bnd-LastModified: 1400581489560
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Import-Package: com.vaadin,com.vaadin.addons.sliderlayout,com.vaadin.a
- ddons.sliderlayout.gwt,com.vaadin.addons.sliderlayout.gwt.client,com.
- vaadin.addons.sliderlayout.gwt.public.sliderlayout,com.vaadin.addons.
- sliderlayout.layout,com.vaadin.data,com.vaadin.data.util,com.vaadin.t
- erminal,com.vaadin.terminal.gwt.client,com.vaadin.terminal.gwt.client
- .ui,com.vaadin.ui
+Import-Package: com.vaadin,com.vaadin.addons.sliderlayout;version="0.0
+ .1.SNAPSHOT",com.vaadin.addons.sliderlayout.gwt;version="0.0.1.SNAPSH
+ OT",com.vaadin.addons.sliderlayout.gwt.client;version="0.0.1.SNAPSHOT
+ ",com.vaadin.addons.sliderlayout.gwt.public.sliderlayout;version="0.0
+ .1.SNAPSHOT",com.vaadin.addons.sliderlayout.layout;version="0.0.1.SNA
+ PSHOT",com.vaadin.data,com.vaadin.data.util,com.vaadin.terminal,com.v
+ aadin.terminal.gwt.client,com.vaadin.terminal.gwt.client.ui,com.vaadi
+ n.ui
 Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.sliderlayout
 Originally-Created-By: Maven Integration for Eclipse
 

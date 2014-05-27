@@ -142,6 +142,11 @@ public class DateFilterPopup extends PopupButton {
             value = null;
             setNullCaption();
         }
+        
+        // set 
+        fromField.setValue(from);
+        toField.setValue(to);
+        
         setPopupVisible(false);
         valueChange(new ValueChangeEvent(DateFilterPopup.this));
     }

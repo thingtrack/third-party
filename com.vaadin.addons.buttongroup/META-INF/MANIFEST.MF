@@ -1,22 +1,14 @@
 Manifest-Version: 1.0
-Export-Package: org.vaadin.peter.buttongroup;uses:="com.vaadin.termina
- l,com.vaadin.ui"
-Private-Package: org.vaadin.peter.buttongroup.client.ui,org.vaadin.pet
- er.buttongroup.public.buttongroup-widget
-Ignore-Package: com.google.gwt.user.client.ui
-Bundle-ClassPath: .,buttongroup-1.2.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.buttongroup
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
 Bundle-Version: 1.2
-Bnd-LastModified: 1369156378478
+Bnd-LastModified: 1401190309129
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.buttongroup
-Import-Package: com.vaadin.terminal,com.vaadin.terminal.gwt.client,com
- .vaadin.terminal.gwt.client.ui,com.vaadin.ui,org.vaadin.peter.buttong
- roup
 Embed-Dependency: *;scope=compile;inline=false;artifactId=buttongroup
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.buttongroup
+Originally-Created-By: Maven Integration for Eclipse
 

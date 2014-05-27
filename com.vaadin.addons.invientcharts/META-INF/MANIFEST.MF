@@ -1,24 +1,15 @@
 Manifest-Version: 1.0
-Export-Package: com.invient.vaadin.charts;uses:="com.vaadin.terminal,c
- om.vaadin.ui"
-Private-Package: com.invient.vaadin.charts.widgetset,com.invient.vaadi
- n.charts.widgetset.client.ui,com.invient.vaadin.charts.widgetset.publ
- ic
-Ignore-Package: com.google.gwt.core.client,com.google.gwt.dom.client,c
- om.google.gwt.user.client.ui
-Bundle-ClassPath: .,invient-charts-0.8.6.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.invientcharts
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
 Bundle-Version: 0.8.6
-Bnd-LastModified: 1369156386315
+Bnd-LastModified: 1401190310026
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.invientcharts
-Import-Package: com.invient.vaadin.charts,com.vaadin.terminal,com.vaad
- in.terminal.gwt.client,com.vaadin.ui
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=invi
  ent-charts
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.invientcharts
+Originally-Created-By: Maven Integration for Eclipse
 

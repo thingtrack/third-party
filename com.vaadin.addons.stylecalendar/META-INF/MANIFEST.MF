@@ -1,26 +1,15 @@
 Manifest-Version: 1.0
-Export-Package: org.vaadin.risto.stylecalendar;uses:="com.vaadin.data,
- com.vaadin.terminal,com.vaadin,com.vaadin.ui"
-Private-Package: org.vaadin.risto.stylecalendar.widgetset,org.vaadin.r
- isto.stylecalendar.widgetset.client.ui,org.vaadin.risto.stylecalendar
- .widgetset.public
-Ignore-Package: com.google.gwt.event.shared,com.google.gwt.user.client
- ,com.google.gwt.event.logical.shared,com.google.gwt.dom.client,com.go
- ogle.gwt.event.dom.client,com.google.gwt.user.client.ui
-Bundle-ClassPath: .,stylecalendar-1.0.jar
-Built-By: carlos
+Built-By: miguel
 Tool: Bnd-0.0.238
 Bundle-Name: com.vaadin.addons.stylecalendar
-Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.6.0_27
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Build-Jdk: 1.6.0_45
 Bundle-Version: 1.0
-Bnd-LastModified: 1369156413780
+Bnd-LastModified: 1401190311339
 Embed-Transitive: false
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.stylecalendar
-Import-Package: com.vaadin,com.vaadin.data,com.vaadin.terminal,com.vaa
- din.terminal.gwt.client,com.vaadin.terminal.gwt.client.ui,com.vaadin.
- ui,org.vaadin.risto.stylecalendar
 Embed-Dependency: *;scope=compile|runtime;inline=false;artifactId=styl
  ecalendar
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.stylecalendar
+Originally-Created-By: Maven Integration for Eclipse
 

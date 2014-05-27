@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.github.peholmst.touchkiti18n4vaadin;version="0.0.1
+ .SNAPSHOT";uses:="com.vaadin.ui",com.github.peholmst.touchkiti18n4vaa
+ din.support;version="0.0.1.SNAPSHOT";uses:="com.github.peholmst.touch
+ kiti18n4vaadin,com.vaadin.addon.touchkit.ui,com.vaadin.ui"
+Built-By: thingtrack
+Tool: Bundlor 1.1.1.RELEASE
+Bundle-Name: com.vaadin.addons.touchkitI18N4Vaadin
+Created-By: Maven Integration for Eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 0.0.1.SNAPSHOT
+Build-Jdk: 1.6.0_45
+Bundle-ManifestVersion: 2
+Bundle-Description: com.vaadin.addons.touchkitI18N4Vaadin
+Import-Package: com.vaadin.addon.touchkit.ui,com.vaadin.ui
+Bundle-SymbolicName: com.thingtrack.com.vaadin.addons.touchkitI18N4Vaa
+ din
+
